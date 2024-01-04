@@ -124,11 +124,6 @@ h1 {
 	font-weight: var(--fw-600);
 }
 
-h1,
-.hero-subtitle {
-	/* max-width: 87%; */
-}
-
 .btn {
 	display: flex;
 	align-items: center;
@@ -435,6 +430,20 @@ footer {
 	color: var(--clr-light-100-50) !important;
 }
 
+@media screen and (width < 1100px) {
+	h1 {
+		margin-bottom: 1rem;
+	}
+
+	.hero .hero-flex {
+		flex-direction: column;
+	}
+
+	.hero .hero-video {
+		margin-bottom: 2rem;
+	}
+}
+
 @media screen and (width < 930px) {
 	.content-grid,
 	.breakout-left,
@@ -442,10 +451,6 @@ footer {
 		--_padding-inline: 2rem;
 	}
 
-	h1,
-	.hero-subtitle {
-		max-width: 100%;
-	}
 	.problems {
 		flex-direction: column;
 		top: -70px;

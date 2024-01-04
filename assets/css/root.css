@@ -49,6 +49,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: var(--clr-light-100);
 	color: var(--clr-dark-900);
