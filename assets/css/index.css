@@ -322,18 +322,7 @@ form {
 	gap: 2.25rem;
 }
 
-.adjustable-inputs .input-group:nth-of-type(1) {
-	flex: 1 1 250px;
-}
-
-.adjustable-inputs .input-group:nth-of-type(2) {
-	flex: 1 1 250px;
-}
-
-.adjustable-inputs .input-group:nth-of-type(3) {
-	flex: 1 1 250px;
-}
-.adjustable-inputs .input-group:nth-of-type(4) {
+.adjustable-inputs .input-group {
 	flex: 1 1 250px;
 }
 
@@ -342,6 +331,10 @@ form {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
+}
+
+button.submit {
+	margin-top: 2rem;
 }
 
 .submit-group {
@@ -394,11 +387,17 @@ input[type='email'] {
 	margin-bottom: 1rem;
 }
 
+.issues-msg {
+	margin-bottom: 2rem;
+}
+
 .testimonials h2,
 .benefits h2,
 .share h2 {
 	margin-bottom: 5rem;
 }
+
+/* TESTIMONIALS -------------------------------------- */
 
 .testimonial-cards {
 	display: flex;
