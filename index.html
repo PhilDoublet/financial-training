@@ -388,8 +388,121 @@
                 <p class="fw-600">Register today for just <span class="clr-accent-500 fw-600">$995.00</span></p>
                 <p class="clr-accent-500">Using the Coupon Code: EARLYBIRD</p>
             </div>
-            <form>
-                <div class="adjustable-inputs">
+
+            <form method="post" class="af-form-wrapper" accept-charset="UTF-8"
+                action="https://www.aweber.com/scripts/addlead.pl">
+                <div style="display: none;">
+                    <input type="hidden" name="meta_web_form_id" value="1014649992" />
+                    <input type="hidden" name="meta_split_id" value="" />
+                    <input type="hidden" name="listname" value="awlist6746845" />
+                    <input type="hidden" name="redirect" value="https://buy.stripe.com/bIY4ha0Vq1EC5JS7sT"
+                        id="redirect_344453e15b2c1c849380c05d413fe057" />
+                    <input type="hidden" name="meta_redirect_onlist"
+                        value="https://buy.stripe.com/bIY4ha0Vq1EC5JS7sT" />
+                    <input type="hidden" name="meta_adtracking" value="financial-literacy-course" />
+                    <input type="hidden" name="meta_message" value="1" />
+                    <input type="hidden" name="meta_required"
+                        value="name (awf_first),name (awf_last),custom Phone Number,email,custom Business Name" />
+                    <input type="hidden" name="meta_tooltip" value="" />
+                </div>
+                <div id="af-form-1014649992" class="af-form">
+                    <div id="af-header-1014649992" class="af-header">
+                        <div class="bodyText">
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                    <div id="af-body-1014649992" class="af-body af-standards">
+                        <div class="adjustable-inputs">
+                            <div class="af-element input-group">
+                                <label class="previewLabel" for="awf_field-117038673-first">First Name*</label>
+                                <div class="af-textWrap">
+                                    <input id="awf_field-117038673-first" type="text" class="text" name="name (awf_first)"
+                                        value="" onfocus=" if (this.value == '') { this.value = ''; }"
+                                        onblur="if (this.value == '') { this.value='';} " tabindex="500" />
+                                </div>
+                            </div>
+                            <div class="af-element input-group">
+                                <label class="previewLabel" for="awf_field-117038673-last">Last Name*</label>
+                                <div class="af-textWrap">
+                                    <input id="awf_field-117038673-last" class="text" type="text" name="name (awf_last)"
+                                        value="" onfocus=" if (this.value == '') { this.value = ''; }"
+                                        onblur="if (this.value == '') { this.value='';} " tabindex="501" />
+                                </div>
+                            </div>
+                            <div class="af-element input-group">
+                                <label class="previewLabel" for="awf_field-117038674">Phone Number*</label>
+                                <div class="af-textWrap"><input type="text" id="awf_field-117038674" class="text"
+                                        name="custom Phone Number" value=""
+                                        onfocus=" if (this.value == '') { this.value = ''; }"
+                                        onblur="if (this.value == '') { this.value='';}" tabindex=502 /></div>
+                            </div>
+                            <div class="af-element input-group">
+                                <label class="previewLabel" for="awf_field-117038675">Email*</label>
+                                <div class="af-textWrap"><input class="text" id="awf_field-117038675" type="email"
+                                        name="email" value="" tabindex="503"
+                                        onfocus=" if (this.value == '') { this.value = ''; }"
+                                        onblur="if (this.value == '') { this.value='';} " />
+                                </div>
+                            </div>
+                            <div class="af-element input-group">
+                                <label class="previewLabel" for="awf_field-117038676">Business Name*</label>
+                                <div class="af-textWrap"><input type="text" id="awf_field-117038676" class="text"
+                                        name="custom Business Name" value=""
+                                        onfocus=" if (this.value == '') { this.value = ''; }"
+                                        onblur="if (this.value == '') { this.value='';}" tabindex = 504 /></div>
+                            </div>
+                        </div>
+                        <div class="af-element buttonContainer submit-group">
+                            <button name="submit" class="submit btn btn-dark-900" type="submit" value="Proceed" tabindex="505">
+                                <span>Proceed to Payment</span>
+                                <div class="icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.4697 8.53033C13.1768 8.23744 13.1768 7.76256 13.4697 7.46967C13.7626 7.17678 14.2374 7.17678 14.5303 7.46967L18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L14.5303 16.5303C14.2374 16.8232 13.7626 16.8232 13.4697 16.5303C13.1768 16.2374 13.1768 15.7626 13.4697 15.4697L16.1893 12.75H6.5C6.08579 12.75 5.75 12.4142 5.75 12C5.75 11.5858 6.08579 11.25 6.5 11.25H16.1893L13.4697 8.53033Z"
+                                            fill="var(--clr-light-100)" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="stripe">
+                                <span>Powered by</span>
+                                <div class="stripe-logo-svg">
+                                    <svg viewBox="0 0 60 25" xmlns="http://www.w3.org/2000/svg" width="60" height="25">
+                                        <path fill="var(--clr-accent-500)"
+                                            d="M59.64 14.28h-8.06c.19 1.93 1.6 2.55 3.2 2.55 1.64 0 2.96-.37 4.05-.95v3.32a8.33 8.33 0 0 1-4.56 1.1c-4.01 0-6.83-2.5-6.83-7.48 0-4.19 2.39-7.52 6.3-7.52 3.92 0 5.96 3.28 5.96 7.5 0 .4-.04 1.26-.06 1.48zm-5.92-5.62c-1.03 0-2.17.73-2.17 2.58h4.25c0-1.85-1.07-2.58-2.08-2.58zM40.95 20.3c-1.44 0-2.32-.6-2.9-1.04l-.02 4.63-4.12.87V5.57h3.76l.08 1.02a4.7 4.7 0 0 1 3.23-1.29c2.9 0 5.62 2.6 5.62 7.4 0 5.23-2.7 7.6-5.65 7.6zM40 8.95c-.95 0-1.54.34-1.97.81l.02 6.12c.4.44.98.78 1.95.78 1.52 0 2.54-1.65 2.54-3.87 0-2.15-1.04-3.84-2.54-3.84zM28.24 5.57h4.13v14.44h-4.13V5.57zm0-4.7L32.37 0v3.36l-4.13.88V.88zm-4.32 9.35v9.79H19.8V5.57h3.7l.12 1.22c1-1.77 3.07-1.41 3.62-1.22v3.79c-.52-.17-2.29-.43-3.32.86zm-8.55 4.72c0 2.43 2.6 1.68 3.12 1.46v3.36c-.55.3-1.54.54-2.89.54a4.15 4.15 0 0 1-4.27-4.24l.01-13.17 4.02-.86v3.54h3.14V9.1h-3.13v5.85zm-4.91.7c0 2.97-2.31 4.66-5.73 4.66a11.2 11.2 0 0 1-4.46-.93v-3.93c1.38.75 3.1 1.31 4.46 1.31.92 0 1.53-.24 1.53-1C6.26 13.77 0 14.51 0 9.95 0 7.04 2.28 5.3 5.62 5.3c1.36 0 2.72.2 4.09.75v3.88a9.23 9.23 0 0 0-4.1-1.06c-.86 0-1.44.25-1.44.9 0 1.85 6.29.97 6.29 5.88z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+        
+                            <div class="issues-msg">
+                                <p>Having issues?</p>
+                                <a
+                                    href="mailto:info+fin-training@phildoublet.com?subject=Need help registering for financial training course">Email
+                                    us at <span class="fw-700 clr-accent-500">info@phildoublet.com</span></a>
+                            </div>
+                        </div>
+                        <div class="af-element privacyPolicy" style="text-align: center">
+                            <p>We respect your <a title="Privacy Policy" href="https://www.aweber.com/permission.htm"
+                                    target="_blank" rel="nofollow">email privacy</a></p>
+                            <div class="af-clear"></div>
+                        </div>
+                        <div class="af-element poweredBy" style="text-align: center; font-size: 9px;">
+                            <p><a href="https://www.aweber.com" title="AWeber Email Marketing" target="_blank"
+                                    rel="nofollow">Powered by AWeber Email Marketing</a></p>
+                            <div class="af-clear"></div>
+                        </div>
+                    </div>
+                    <div id="af-footer-1014649992" class="af-footer">
+                        <div class="bodyText">
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: none;"><img src="https://forms.aweber.com/form/displays.htm?id=jAyMLGwsnJycTA=="
+                        alt="" /></div>
+
+                <!-- <div class="adjustable-inputs">
                     <div class="input-group">
                         <label class="label" for="full-name">Full Name *</label>
                         <input type="text" name="full-name" id="full-name" placeholder="John Doe">
@@ -407,23 +520,6 @@
                         <input type="email" name="email" id="email" placeholder="name@email.com">
                     </div>
                 </div>
-                <!-- <div class="input-group">
-                    <p class="label">Payment Option *</p>
-                    <div class="radio-group">
-                        <input type="radio" name="payment-option" id="one-payment" value="one-payment" checked required>
-                        <label for="one-payment">
-                            One-time payment of
-                            <span class="clr-accent-500 fw-800">$995.00</span>
-                        </label>
-                    </div>
-                    <div class="radio-group">
-                        <input type="radio" name="payment-option" id="two-payment" value="two-payment">
-                        <label for="two-payment">
-                            <span class="clr-accent-500 fw-800">$1,495.00</span>
-                            paid in 2 Monthly installments
-                        </label>
-                    </div>
-                </div> -->
                 <div class="submit-group">
                     <a class="btn btn-dark-900" href="https://buy.stripe.com/bIY4ha0Vq1EC5JS7sT">
                         <span>Proceed to Payment</span>
@@ -453,7 +549,7 @@
                             href="mailto:info+fin-training@phildoublet.com?subject=Need help registering for financial training course">Email
                             us at <span class="fw-700 clr-accent-500">info@phildoublet.com</span></a>
                     </div>
-                </div>
+                </div> -->
             </form>
         </div>
     </section>
